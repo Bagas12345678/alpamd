@@ -20,9 +20,9 @@ global.autoread = false // auto read pesan / message
 // Other
 global.botname = "Bot-Mdོ" //namabot kalian
 global.ownername= "ᴹᴿ᭄ botcོ ×፝֟͜×" //nama kalian
-global.myweb ="https://api.zeeoneofc.xyz" //bebas asal jan hapus
-global.youtube = "https://youtube.com/c/ZeeoneOfc" //bebas asal jan hapus
-global.github = "https://zeeone-ofc.github.io/" //bebas
+global.myweb = "https://chat.whatsapp.com/JGbF9k7IFJtLNfcCYeJ821" //bebas asal jan hapus
+global.youtube = "https://youtu.be/enOxGXIn9VA" //bebas asal jan hapus
+global.github = "https://youtu.be/enOxGXIn9VA" //bebas
 global.email = "zeeoneofc@gmail.com" //bebas
 global.region = "Indonesia" //bebas
 global.ownernomer = "6288217843188" // nomor wa kalian
