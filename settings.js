@@ -23,7 +23,7 @@ global.ownername= "ᴹᴿ᭄ botcོ ×፝֟͜×" //nama kalian
 global.myweb = "https://chat.whatsapp.com/JGbF9k7IFJtLNfcCYeJ821" //bebas asal jan hapus
 global.youtube = "https://youtu.be/enOxGXIn9VA" //bebas asal jan hapus
 global.github = "https://youtu.be/enOxGXIn9VA" //bebas
-global.email = "zeeoneofc@gmail.com" //bebas
+global.email = "0@gmail.com" //bebas
 global.region = "Indonesia" //bebas
 global.ownernomer = "6288217843188" // nomor wa kalian
 global.ownernomerr = "+6288217843188" //nmr wa kalian
@@ -42,7 +42,7 @@ global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutp
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    sukses: '🤗Done, Oke Desu~',
+    sukses: 'TERIMA KASIH TELAH MENGGUNAKAN BOT~',
     admin: 'Perintah Ini Hanya Bisa Digunakan Oleh Admin !',
     botAdmin: 'Perintah Ini Hanya Bisa Digunakan Ketika Bot Menjadi Admin !',
     owner: 'Perintah Ini Hanya Bisa Digunakan Oleh Owner !',
