@@ -5,7 +5,7 @@ exports.wait = () => {
     return `⏳ Mohon tunggu sebentar~`
 }
 exports.ok = () => {
-    return `✅ Done. Ok desu~`
+    return `TERIMA KASIH TELAH MENGGUNAKAN BOT KAMI~`
 }
 
 exports.err = () => {
@@ -92,7 +92,7 @@ saya ${botname}, bot ini adalah Beta Multi-Device Whatsapp.
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname}*
 *⌚Time Server : ${time}*
-*📚 List-Menu Alphabot-Md :*
+*📚 List-Menu Bot :*
 
 ╭─❒ 「 Bot Info 」 
 ├ ${prefix}owner
@@ -799,12 +799,10 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╭─❒ 「 TqTo 」 
 ├ My God
 ├ My Parents
-├ Fatih A.
-├ Ferdi
+├ Reza
 ├ DikaArdnt
 ├ Mhankbarbar
 ├ Nurutomo
-├ Rashid
 ├ ZeeoneOfc
 ├ Penyedia Module
 ╰❒ And All Support
@@ -865,7 +863,7 @@ exports.source = () =>{
 return`*------「 SOURCE CODE 」 ------*
 
 Base : https://github.com/DikaArdnt/Hisoka-Morou
-Recode : https://youtube.com/playlist?list=PLFCglBzFPHG7vSQaa9S3P8yfla_d9w-2-
+
 `
 }
 exports.tos = (ownernomer) => {
