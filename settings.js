@@ -18,7 +18,7 @@ global.autoread = true // auto read pesan / message
 //global.available = true //status online (online)
 
 // Other
-global.botname = "darknessqwerty31@gmail.com" //namabot kalian
+global.botname = "Reteam" //namabot kalian
 global.ownername= "darknessqwerty31@gmail.com" //nama kalian
 global.myweb = "https://chat.whatsapp.com/JGbF9k7IFJtLNfcCYeJ821" //bebas asal jan hapus
 global.youtube = "https://youtu.be/enOxGXIn9VA" //bebas asal jan hapus
