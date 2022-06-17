@@ -796,6 +796,18 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}lisa  
 ╰❒ ${prefix}rose
 
+╭─❒ 「 TqTo 」 
+├ My God
+├ My Parents
+├ Reza
+├ DikaArdnt
+├ Mhankbarbar
+├ Nurutomo
+├ ZeeoneOfc
+├ Penyedia Module
+╰❒ And All Support
+
+
     `
 }
 
