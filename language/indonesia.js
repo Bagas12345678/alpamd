@@ -2,7 +2,7 @@ exports.private = () =>{
 	return`Fitur hanya bisa di gunakan di private chat`
 	}
 exports.wait = () => {
-    return `⏳ Mohon tunggu sebentar~`
+    return `𝚜𝚊𝚋𝚊𝚛 𝚜𝚊𝚢𝚊𝚗𝚐...`
 }
 exports.ok = () => {
     return `TERIMA KASIH TELAH MENGGUNAKAN BOT KAMI~`
@@ -796,16 +796,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}lisa  
 ╰❒ ${prefix}rose
 
-╭─❒ 「 TqTo 」 
-├ My God
-├ My Parents
-├ Reza
-├ DikaArdnt
-├ Mhankbarbar
-├ Nurutomo
-├ ZeeoneOfc
-├ Penyedia Module
-╰❒ And All Support
     `
 }
 
