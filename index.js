@@ -2012,7 +2012,6 @@ sendFileFromUrl(from, to, lang.ok(), m)
 	break
 case 'hentai': {
 			if (!db.data.chats[m.chat].nsfw) return reply('Fitur nsfw belum di aktifkan')
-                reply(lang.wait())
                 anu = await hentai()
                 result = anu[Math.floor(Math.random(), anu.length)]
                 alpha.sendMessage(m.chat, { video: { url: result.video_1 }, caption: `⭔ Title : ${result.title}\n⭔ Category : ${result.category}\n⭔ Mimetype : ${result.type}\n⭔ Views : ${result.views_count}\n⭔ Shares : ${result.share_count}\n⭔ Source : ${result.link}\n⭔ Media Url : ${result.video_1}` }, { quoted: m })
@@ -2023,7 +2022,6 @@ case 'solog': case 'cuddle': case 'cum': case 'les': case 'erokemo': case 'bj': 
 var ini_gif = await fetchJson(`https://nekos.life/api/v2/img/${command}`)
 		sendFileFromUrl(from,ini_gif.url,lang.ok(),m)
 		.catch((err) => {
-                    reply(lang.err())
                 })
         break
 		
