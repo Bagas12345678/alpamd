@@ -9,7 +9,7 @@ exports.ok = () => {
 }
 
 exports.err = () => {
-    return `⚠️ Fitur Sedang Error`
+    return `Query yang anda masukkan salah`
 }
 exports.erorLink = () => {
     return `⚠️ Link nya error`
