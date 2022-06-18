@@ -749,7 +749,6 @@ if (!m.isGroup) return reply(lang.groupOnly())
             break
             case 'wallpaper': {
             	if (!q) return reply(lang.wrongFormat(prefix))
-                reply(lang.wait())
                 wallpaper(text).then( async anu =>{
                 result = anu[Math.floor(Math.random(), anu.length)]
                 let gam = await getBuffer(result.image[0])
