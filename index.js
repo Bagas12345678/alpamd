@@ -717,7 +717,6 @@ if (!m.isGroup) return reply(lang.groupOnly())
 	    case 'toimage': case 'toimg': {
                 if (!quoted) throw 'Reply Image'
                 if (!/webp/.test(mime)) throw `Reply Sticker Dengan Caption *${prefix + command}*`
-                reply(lang.wait())
                 let media = await alpha.downloadAndSaveMediaMessage(quoted)
                 let ran = await getRandom('.png')
                 exec(`ffmpeg -i ${media} ${ran}`, (err) => {
@@ -731,7 +730,6 @@ if (!m.isGroup) return reply(lang.groupOnly())
             break
             case 'pinterest': {
             	if (!q) return reply(lang.wrongFormat(prefix))
-                reply(lang.wait())
                 anu = await pinterest(text)
                 result = anu[Math.floor(Math.random(), anu.length)]
                 let gam = await getBuffer(result)
@@ -874,7 +872,6 @@ if (!m.isGroup) return reply(lang.groupOnly())
       
 //Random Anime
 				case 'cry':case 'kill':case 'hug':case 'pat':case 'lick':case 'kiss':case 'bite':case 'yeet':case 'neko':case 'bully':case 'bonk':case 'wink':case 'poke':case 'nom':case 'slap':case 'smile':case 'wave':case 'awoo':case 'blush':case 'smug':case 'glomp':case 'happy':case 'dance':case 'cringe':case 'highfive':case 'shinobu':case 'megumin':case 'handhold':
-					reply(lang.wait())
 					axios.get(`https://api.waifu.pics/sfw/${command}`)
 					.then(({data}) => {
 						alpha.sendMediaAsSticker(m.chat, data.url, m, { packname: global.packname, author: global.author })
@@ -883,7 +880,6 @@ if (!m.isGroup) return reply(lang.groupOnly())
 					})
 					break
 				case 'waifu': case 'loli':
-					reply(lang.wait())
 					axios.get(`https://api.waifu.pics/sfw/waifu`)
 					.then(({data}) => {
 					alpha.sendImage(m.chat, data.url, lang.ok(), m)
