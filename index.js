@@ -1574,7 +1574,7 @@ break
 		 		   reply(lang.ok())
 		}
             break
-				case 'menu':{
+				case 'help':{
 					if(typemenu == 'templateLocation'){
 						await alpha.send5ButLoc(from, lang.menunya(salam, pushname, botname) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": "Rest Api's","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "List Command","id": 'command'}}] )
 							}
@@ -1592,8 +1592,8 @@ break
 						}
 					}
 					break    
-	case 'allmenu':{
-			await alpha.send5ButLoc(from, `Hai kak ${pushname} 👋, saya *${botname}* ` + '\n\n' + lang.listMenu(time, salam, pushname, prefix) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": "Rest Api's","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Rules","id": 'rules'}}] )
+	case 'allmenu': case 'menu': {
+			await alpha.send5ButGif(from, `Hai kak ${pushname} 👋, saya *${botname}* ` + '\n\n' + lang.listMenu(time, salam, pushname, prefix) , `© ${ownername}`,pp_bot, [{"urlButton": {"displayText": "YouTube Creator","url": `${youtube}`}},{"urlButton": {"displayText": "Rest Api's","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "Rules","id": 'rules'}}] )
 		}
 	break   
 	case 'infocmd': case'infomenu':{
@@ -1988,8 +1988,6 @@ reply(lang.wait())
 let texpro = global.api('alfa', '/api/textpro/'+command, {text:text}, 'apikey')
 sendFileFromUrl(from, texpro, lang.ok(), m)
 .catch((err) => {
-                    reply(lang.err())
-                })
 }
 break
 case 'chika': case 'rikagusriani':  case 'bocil': case 'geayubi': case 'santuy': case 'ukhty': case 'asupan':  case 'delvira': case 'ayu': case 'bunga': case 'aura': case 'nisa': case 'ziva': case 'yana': case 'viona': case 'syania': case 'riri': case 'syifa': case 'mama_gina': case 'alcakenya': case 'mangayutri': {
@@ -1997,17 +1995,12 @@ case 'chika': case 'rikagusriani':  case 'bocil': case 'geayubi': case 'santuy':
 	let to = global.api('alfa', '/api/asupan/'+command, {}, 'apikey')
 sendFileFromUrl(from, to, lang.ok(), m)
 .catch((err) => {
-                    reply(lang.err())
-                })
 }
 break
 case 'china': case 'indonesia': case 'malaysia': case 'thailand': case 'korea': case 'japan': case 'vietnam': case 'jenni': case 'jiso': case 'lisa': case 'rose': {
 	let to = global.api('alfa', '/api/cecan/'+command, {}, 'apikey')
-reply(lang.wait())
 sendFileFromUrl(from, to, lang.ok(), m)
 .catch((err) => {
-                    reply(lang.err())
-                })
 }
 	break
 case 'hentai': {
