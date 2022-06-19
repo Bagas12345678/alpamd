@@ -855,11 +855,10 @@ exports.welcome = () =>{
 ├ 𝖦𝖾𝗇𝖽𝖾𝗋 :
 ├ 𝖠𝗌𝗄𝗈𝗍 :
 ╰❒
-
-@desc`
+`
 }
 exports.leave = () =>{
-	return`KELUAR`
+	return`KELUAR ${ownernomer}`
 }
 exports.source = () =>{
 return`*------「 SOURCE CODE 」 ------*
