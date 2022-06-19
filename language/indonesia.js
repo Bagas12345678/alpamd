@@ -302,7 +302,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}igvideo [link]
 ├ ${prefix}igreels [link]
 ├ ${prefix}igtv [link]
-├ ${prefix}twitterdl [link]
 ├ ${prefix}soundcloud [link]
 ├ ${prefix}gitclone [link repo]
 ├ ${prefix}gitrepo [username repo branch]
@@ -858,7 +857,7 @@ exports.welcome = () =>{
 `
 }
 exports.leave = () =>{
-	return`KELUAR ${ownernomer}`
+	return`KELUAR`
 }
 exports.source = () =>{
 return`*------「 SOURCE CODE 」 ------*
