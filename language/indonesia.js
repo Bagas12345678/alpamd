@@ -2,7 +2,7 @@ exports.private = () =>{
 	return`Fitur hanya bisa di gunakan di private chat`
 	}
 exports.wait = () => {
-    return `𝚜𝚊𝚋𝚊𝚛 𝚜𝚊𝚢𝚊𝚗𝚐...`
+    return `Wait...`
 }
 exports.ok = () => {
     return `TERIMA KASIH TELAH MENGGUNAKAN BOT KAMI~`
@@ -302,6 +302,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}igvideo [link]
 ├ ${prefix}igreels [link]
 ├ ${prefix}igtv [link]
+├ ${prefix}twitterdl [link]
 ├ ${prefix}soundcloud [link]
 ├ ${prefix}gitclone [link repo]
 ├ ${prefix}gitrepo [username repo branch]
@@ -853,11 +854,12 @@ exports.welcome = () =>{
 ├ 𝖴𝗆𝗎𝗋 :
 ├ 𝖦𝖾𝗇𝖽𝖾𝗋 :
 ├ 𝖠𝗌𝗄𝗈𝗍 :
-╰❒ 𝖯𝖺𝗍𝗎𝗁𝗂 𝗋𝗎𝗅𝖾𝗌 𝗀𝗋𝗎𝗉 𝗒𝖺 𝗄𝖺k ~`
+╰❒
+
+@desc`
 }
 exports.leave = () =>{
-	return`Yah kok out 😣 Mental aman kan kak >.<
-Goodbye`
+	return`KELUAR`
 }
 exports.source = () =>{
 return`*------「 SOURCE CODE 」 ------*
